@@ -1,0 +1,38 @@
+{
+  "name": "twee-favicon-extension",
+  "preferGlobal": false,
+  "version": "0.0.1",
+  "author": "Dmitri Mesin &lt;dmitri.mesin@gmail.com>",
+  "homepage": "https://github.com/mesin/twee-favicon-extension",
+  "description": "Favicon Middleware Extension for Twee.io Framework - MVC Framework for Node.js based on Express.js",
+  "license": "MIT",
+  "dependencies": {
+    "serve-favicon": "*"
+  },
+  "devDependencies": {
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mesin/twee-favicon-extension.git"
+  },
+  "keywords": [
+    "favicon",
+    "serve-favicon",
+    "twee.io",
+    "framework",
+    "extensions",
+    "modules",
+    "route",
+    "web",
+    "middleware",
+    "mvc",
+    "routes",
+    "rest",
+    "restful",
+    "api"
+  ],
+  "bugs": {
+    "url": "https://github.com/mesin/twee-favicon-extension/issues"
+  }
+}
