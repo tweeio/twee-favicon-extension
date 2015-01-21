@@ -1,22 +1,23 @@
 {
-    "name": "twee-favicon-extension",
+    "name": "twee-static-extension",
     "preferGlobal": false,
     "version": "0.0.1",
     "author": "Dmitri Mesin <dmitri.mesin@gmail.com>",
-    "homepage": "https://github.com/mesin/twee-favicon-extension",
-    "description": "Favicon Middleware Extension for Twee.io Framework - MVC Framework for Node.js based on Express.js",
+    "homepage": "https://github.com/mesin/twee-static-extension",
+    "description": "Static Files Middleware Extension for Twee.io Framework - MVC Framework for Node.js based on Express.js",
     "license": "MIT",
     "dependencies": {
-        "serve-favicon": "*"
+        "express": "*"
     },
     "devDependencies": {},
     "repository": {
         "type": "git",
-        "url": "https://github.com/mesin/twee-favicon-extension.git"
+        "url": "https://github.com/mesin/twee-static-extension.git"
     },
     "keywords": [
-        "favicon",
-        "serve-favicon",
+        "static",
+        "files",
+        "ftp",
         "twee.io",
         "framework",
         "extensions",
@@ -31,6 +32,6 @@
         "api"
     ],
     "bugs": {
-        "url": "https://github.com/mesin/twee-favicon-extension/issues"
+        "url": "https://github.com/mesin/twee-static-extension/issues"
     }
 }
