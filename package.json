@@ -1,7 +1,7 @@
 {
   "name": "twee-favicon-extension",
   "preferGlobal": false,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Dmitri Mesin &lt;dmitri.mesin@gmail.com>",
   "homepage": "https://github.com/mesin/twee-favicon-extension",
   "description": "Favicon Middleware Extension for Twee.io Framework - MVC Framework for Node.js based on Express.js",
