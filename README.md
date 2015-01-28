@@ -6,12 +6,33 @@
 [![npm](https://img.shields.io/npm/dm/localeval.svg)](https://github.com/tweeio/twee-framework)
 [![npm](https://img.shields.io/npm/l/express.svg)](https://github.com/tweeio/twee-framework)
 
-Favicon Middleware Extension for Twee.io Framework - MVC Framework for Node.js and io.js based on Express.js.
+Favicon Extension for Twee.io Framework - MVC Framework for Node.js and io.js based on Express.js.
 Installs favicon middleware that can be configured over twee.io config. 
-During installing favicon handler it checks if favocon file exists. If not - then it doesn't installs
+During installing favicon handler it checks if favicon file exists. If not - then it doesn't installs
 
 To install it use this command:
 
 ```
 npm install twee-favicon-extension --save
+```
+
+
+Editing `package.json` of your application:
+
+```
+"dependencies": {
+    "twee-favicon-extension": "*"
+}
+```
+
+Turning extension `ON` in `application/configs/twee.js`:
+
+```
+module.exports = {
+    "extensions": {
+        "Favicon": {
+            "module": "twee-favicon-extension"
+        }
+    }
+};
 ```
