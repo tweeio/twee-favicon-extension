@@ -6,11 +6,11 @@ module.exports.extension = function() {
 
     var fs = require('fs')
         , path = require('path')
-        , faviconFileName = twee.getConfig('extension:twee-favicon:file')
+        , faviconFileName = twee.getConfig('twee:extension:twee-favicon:file')
         , faviconFile = path.join(twee.getBaseDirectory(), faviconFileName)
         , favicon = require('serve-favicon');
 
-    if (twee.getConfig('extension:twee-favicon:file') && fs.existsSync(faviconFile)) {
+    if (twee.getConfig('twee:extension:twee-favicon:file') && fs.existsSync(faviconFile)) {
         twee.getApplication().use(favicon(faviconFile));
     }
 };
